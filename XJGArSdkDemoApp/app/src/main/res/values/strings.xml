@@ -1,0 +1,15 @@
+<!--<resources>-->
+<!--<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="app_name">XJGARSDK</string>
+    <string name="filter_none">Original</string>
+    <string name="filter_antique">Antique</string>
+    <string name="filter_cool">Cool</string>
+    <string name="filter_emerald">Emerald</string>
+    <string name="filter_evergreen">Evergreen</string>
+    <string name="filter_healthy">Healthy</string>
+    <string name="filter_nostalgia">Nostalgia</string>
+    <string name="filter_crayon">Crayon</string>
+
+
+</resources>

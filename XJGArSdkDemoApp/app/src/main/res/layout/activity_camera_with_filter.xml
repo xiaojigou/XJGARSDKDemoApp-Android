@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaojigou.luo.activity.CameraWithFilterActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<com.xiaojigou.luo.camfilter.widget.LuoGLCameraView-->
+            <!--android:id="@+id/glsurfaceview_camera"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+        <com.xiaojigou.luo.camfilter.widget.LuoGLCameraView
+            android:id="@+id/glsurfaceview_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/btn_camera_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_video" />
+
+            <ImageView
+                android:id="@+id/btn_camera_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/selector_rewardcamera" />
+        </LinearLayout>
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="5dp">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@android:color/transparent"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip"
+                android:id="@+id/mOtherMenu">
+
+                <ImageView
+                    android:id="@+id/btn_camera_beauty"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:scaleType="center"
+                    android:src="@drawable/btn_camera_beauty"
+                    android:background="@android:color/transparent"></ImageView>
+                <ImageView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:id="@+id/btn_camera_shutter"
+                android:src="@drawable/btn_camera_shutter"
+                    android:background="@android:color/transparent">
+                </ImageView>
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/btn_camera_shutter"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginBottom="10dip"-->
+                    <!--android:background="@drawable/btn_shutter_background" />-->
+
+                <ImageView
+                    android:id="@+id/btn_camera_filter"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:scaleType="center"
+                    android:src="@drawable/btn_camera_filter"
+                    android:background="@android:color/transparent"></ImageView>
+            </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/mOtherMenu"
+            android:id="@+id/mMenuView" >
+        </android.support.v7.widget.RecyclerView>
+
+        <include
+            android:id="@+id/layout_filter"
+            layout="@layout/filter_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@android:color/transparent"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/layout_facesurgery"
+            layout="@layout/face_surgery_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:visibility="invisible" />
+        <!--</FrameLayout>-->
+
+    </RelativeLayout>
+</LinearLayout>

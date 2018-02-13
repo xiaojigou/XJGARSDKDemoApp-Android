@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">XJGARSDK</string>
+    <string name="filter_none">原图</string>
+	<string name="filter_antique">复古</string>
+	<string name="filter_cool">冰冷</string>
+	<string name="filter_emerald">祖母绿</string>
+	<string name="filter_evergreen">常青</string>
+	<string name="filter_healthy">健康</string>
+	<string name="filter_nostalgia">怀旧</string>
+	<string name="filter_crayon">蜡笔</string>
+
+</resources>

@@ -1,12 +1,13 @@
-# XJGARSDKDemoApp-Android
+#工程配置<br>
+==================
 一、准备工作<br>
-- -------------------
+--------------------
 1.	安装Android Studio；<br>
 本说明使用的Andrid Studio 2.3.3，操作系统为Windows 7 64位旗舰版。<br>
 ![image](https://github.com/TeacherLuo/XJGARSDKDemoApp-Android/raw/master/ImageCache/1.png)<br>
 ![image](https://github.com/TeacherLuo/XJGARSDKDemoApp-Android/raw/master/ImageCache/2.png)<br>
 二、生成工程文件<br>
-- --------------------
+---------------------
 1.	将“XJGARSDKDemoApp-Android-master.zip”解压，解压后的文件夹中有名为“XJGArSdkDemoApp”的文件夹。（注意：解压的路径全文中不得有中文）。<br>
 2.	使用Android Studio打开“XJGArSdkDemoApp”的文件夹所对应的项目。<br>
 3.	若用户除了“XJGARSDKDemoApp-Android-master.zip”文件之外，还获得了更新的动态库文件（文件类型为aar）或者更新的License字段，那么执行以下3.1至3.3步骤。<br>
@@ -34,8 +35,14 @@
 1.9	选择安卓手机作为调试平台<br>
 ![image](https://github.com/TeacherLuo/XJGARSDKDemoApp-Android/raw/master/ImageCache/8.png)<br>
 
-API接口：<br>
--------------
+
+#免费License申请
+====================
+http://www.xiaojigou.cn 首页-》开发包-》说明文档-》XJGARSDK说明文档
+
+
+#API接口：<br>
+====================
 注意：SDK中各个函数需要在单一的线程中调用。<br>
 1.	初始化<br>
 >####初始化方法：<br>

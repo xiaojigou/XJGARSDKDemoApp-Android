@@ -36,9 +36,10 @@
 ![image](https://github.com/TeacherLuo/XJGARSDKDemoApp-Android/raw/master/ImageCache/8.png)<br>
 
 
-#免费License申请
+#免费License申请、贴纸制作工具地址
 ====================
 http://www.xiaojigou.cn 首页-》开发包-》说明文档-》XJGARSDK说明文档
+
 
 
 #API接口：<br>

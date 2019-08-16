@@ -84,6 +84,8 @@ public class LuoGLCameraView extends LuoGLBaseView {
 //        resultTexture =  resultTex[0];
 //        filter.onDrawFrame(resultTexture,gLCubeBuffer,gLTextureBuffer);
 
+        //XJGArSdkApi.XJGARSDKSetInputTextrueFlips(1,0);
+
 //        XJGArSdkApi.XJGARSDKRenderGLTexture(resultTexture,imageWidth,imageHeight);
         GLES20.glViewport(0,0,surfaceWidth, surfaceHeight);
         int finalTexture = XJGArSdkApi.XJGARSDKRenderGLTexToGLTex(resultTexture,imageWidth,imageHeight);

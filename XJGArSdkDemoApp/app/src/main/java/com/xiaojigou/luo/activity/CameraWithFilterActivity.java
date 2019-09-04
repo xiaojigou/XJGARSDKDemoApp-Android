@@ -84,9 +84,9 @@ public class CameraWithFilterActivity extends Activity{
 
         //options
 //        //optimization mode for video
-//        XJGArSdkApi.XJGARSDKSetOptimizationMode(0);
+        XJGArSdkApi.XJGARSDKSetOptimizationMode(0);
         //optimization mode for video using asychronized thread
-        XJGArSdkApi.XJGARSDKSetOptimizationMode(2);
+//        XJGArSdkApi.XJGARSDKSetOptimizationMode(2);
         //show sticker papers
 //        XJGArSdkApi.XJGARSDKSetShowStickerPapers(true);
         XJGArSdkApi.XJGARSDKSetShowStickerPapers(false);
@@ -294,6 +294,11 @@ public class CameraWithFilterActivity extends Activity{
         bean.name="天使";
         bean.path="angel";
         mStickerData.add(bean);
+
+//        bean=new MenuBean();
+//        bean.name="眼镜";
+//        bean.path="eyes";
+//        mStickerData.add(bean);
 
         bean=new MenuBean();
         bean.name="财神爷";
